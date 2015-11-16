@@ -1,0 +1,36 @@
+ul {
+ padding:0;
+ width:400px;
+ margin:0 auto;/*centrage marges automatiques*/
+ list-style-type:none;
+ }
+li {
+ margin-left:2px;
+ float:left; /*pour IE*/
+ }
+ul li a {
+ display:block;
+ float:left;   
+ width:100px;
+ background-color:#C0C0C0;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+ margin-top: 68px;
+ border-radius: 10px 10px 0px 0px;
+ /*pour avoir un effet \"outset\" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ } 
+ #nav {
+ 	width:95%;
+ 	height : 100px;
+ 	margin:0 auto;
+ 	background-color: #696969;
+ 	border-radius: 10px;
+ }
